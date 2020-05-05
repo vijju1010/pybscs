@@ -5,5 +5,6 @@ def morse_to_alpha(s):
     for i in x:
         print(b[i],end=" ")
 def alpha_to_morse(s) :
+    s=s.upper()
     for i in s:
         print(a[i],end=" ")
